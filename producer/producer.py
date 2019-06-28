@@ -21,7 +21,6 @@ def map_apps(current_app):
 	else:
 		return m[0]
 
-
 def get_current_app_title():
 	active = ctypes.windll.user32.GetForegroundWindow()
 	length = ctypes.windll.user32.GetWindowTextLengthW(active)
